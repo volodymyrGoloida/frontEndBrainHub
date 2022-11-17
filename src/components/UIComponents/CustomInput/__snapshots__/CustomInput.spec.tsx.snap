@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component CustomInput should successfully render CustomInput 1`] = `
+<body>
+  <div>
+    <div
+      class="root"
+    >
+      <input
+        autocomplete="off"
+        name="text"
+        placeholder="please enter your email"
+        type="text"
+        value=""
+      />
+      <p
+        class="inputError"
+      >
+        qweqwe
+      </p>
+    </div>
+  </div>
+</body>
+`;

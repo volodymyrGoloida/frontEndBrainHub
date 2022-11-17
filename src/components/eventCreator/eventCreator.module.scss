@@ -1,0 +1,22 @@
+@import "../../UI-global-styles/variables";
+.formWrapper {
+  width: 30%;
+
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  .inputWrapper {
+    margin: 0.5rem;
+  }
+  .buttonWrapper {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  form {
+    width: 100%;
+  }
+  @media (max-width: $breakpoint) {
+    width: 75%;
+  }
+}

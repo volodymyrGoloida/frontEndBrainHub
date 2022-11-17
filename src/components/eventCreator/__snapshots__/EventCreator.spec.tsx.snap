@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component EventCreator should correct went through all user flow 1`] = `
+<body>
+  <div>
+    <div
+      class="formWrapper"
+    >
+      <form>
+        <h1>
+          Create your own event!
+        </h1>
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="root"
+          >
+            <input
+              autocomplete="off"
+              name="firstName"
+              placeholder="please enter your first name"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="root"
+          >
+            <input
+              autocomplete="off"
+              name="lastName"
+              placeholder="please enter your last name"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="root"
+          >
+            <input
+              autocomplete="off"
+              name="email"
+              placeholder="please enter your email"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="root"
+          >
+            <input
+              autocomplete="off"
+              name="eventDate"
+              type="datetime-local"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="buttonWrapper"
+        >
+          <button
+            class="buttonRoot"
+          >
+            Create
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+`;

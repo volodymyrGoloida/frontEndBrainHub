@@ -1,0 +1,28 @@
+@import "../../../UI-global-styles/_variables.scss";
+@import "../../../UI-global-styles/mixins";
+
+.root {
+  @include DisplayFlexMixin(column, center, center);
+  position: relative;
+  input {
+    padding: 0.7rem 1rem;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: $purple;
+    border: none;
+    color: white;
+    &::placeholder {
+      color: white;
+    }
+    &:focus {
+      border: none;
+      background-color: $white-purple;
+    }
+  }
+
+  .inputError {
+    font-size: 0.75rem;
+    color: $danger;
+    margin: 0.1rem 0.6rem 0;
+  }
+}
