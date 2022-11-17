@@ -6,7 +6,7 @@ interface CustomInputProps {
   onChange: (name: string, value: string) => void;
   name: string;
   type: string;
-  placeholder: string;
+  placeholder?: string;
   value?: string;
 }
 
@@ -15,7 +15,7 @@ const CustomInput: React.FC<CustomInputProps> = ({
   onChange,
   name,
   type,
-  placeholder,
+  placeholder = "",
   value,
 }) => (
   <div className={scss.root}>

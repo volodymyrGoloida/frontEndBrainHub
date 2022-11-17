@@ -37,10 +37,10 @@ Project is created with:
     npm run start
 ```
 
-3. After building you can start application with
+3. For production
 
 ```sh
-    npm run start:docker
+    npm run build
 ```
 
 ## Run tests
